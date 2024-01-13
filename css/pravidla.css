@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body{
+    background-image: url('../images/rohan-horse.png');
+
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+section {
+    min-height: 100vh;
+    padding: 1.5rem;
+}
+
+section:first-child {
+    background-color: #174533;
+}
+
+section:last-child {
+    background-color: #ceb05f
+    border-width: 3px
+    border-color: #731520
+    border-style: dashed
+}
+
+section div {
+    max-height: 100%;
+}
+
+section#about img {
+    border-radius: 15px;
+}
+
+section#about p {
+
+}
+
+.social--links {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.social--links a{
+    width: 45px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.social--links a:hover{
+
+}
+
+.social--links a:hover i{
+
+}
+
+section#battles h3 {
+    font-size: 1.1rem;
+}
+
+section#battles .battle-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section#battles .battle-list > div {
+    display: flex;
+
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+section#battles .widget--img {
+    max-width: 375px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    filter: grayscale(0.8);
+    transition: all 1s ease;
+}
+
+section#battles .widget--img h3,
+section#battles .widget--img p {
+    padding: 10px;
+
+    background-color: transparent;
+    color: transparent;
+    transition: all 1s ease;
+}
+
+section#battles .widget--img p {
+    max-width: 300px;
+    text-align: center;
+    font-size: small;
+    margin: 5px 15px;
+}
+
+section#battles .widget--img:hover {
+    filter: none;
+}
+
+section#battles .widget--img:hover h3,
+section#battles .widget--img:hover p {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: red;
+}
+
+section#battles .pelennory {
+    background-image: url('pelennory.jpg');
+}
+section#battles .zleb {
+    background-image: url('helmuv_zleb.jpg');
+}
+section#battles .dunharrow {
+    background-image: url('dunharrow.jpg');
+}
+
+section#skills .skill-list {
+
+}
+
+section#skills .skill-list > div {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.progress-bar {
+    padding-left: 5px;
+
+}
+
+footer {
+    height: 50px;
+    background-color: #212529;
+    border-top: 2px solid #731520;
+    display: flex;
+}
